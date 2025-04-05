@@ -28,3 +28,35 @@ body {
   a:hover {
     text-decoration: underline;
   }
+
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-colour: #004080; /* Example background colour */
+  }
+  
+  nav a {
+    colour: #ffffff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+
+  .content-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .content-container {
+      grid-template-columns: 1fr;
+    }
+  
+    nav {
+      flex-direction: column;
+    }
+  }
