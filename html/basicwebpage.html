@@ -1,10 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <!-- Meta information - not visible on the page -->
+    <meta charset="UTF-8">
+
+    <!-- link to external css style sheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Ensures proper character encoding -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes the page responsive on different devices -->
+    
+    <title>My First HTML Page</title>
+    <!-- Sets the title shown in browser tabs and bookmarks -->
+
+    <nav>
+    <a href="#home">Home</a> |
+    <a href="#about">About</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+</head>
 <body>
+    <!-- All visible content goes within the body -->
+    
+    <!-- Heading elements (h1-h6) create hierarchical structure -->
+    <h1>Hello, ME!</h1>
+    <h2>This is HTML Basics</h2>
+    
+    <!-- Paragraph element for text content -->
+    <p>This is my first HTML document. HTML is the standard markup language for creating web pages.</p>
+    
+    <!-- List elements - ordered (ol) and unordered (ul) -->
+    <h3>What I'll Learn:</h3>
+    <ul>
+        <!-- List items (li) -->
+        <li>HTML structure and syntax</li>
+        <li>Basic HTML elements</li>
+        <li>How to create links and add images</li>
+    </ul>
 
-<h1>My First Heading</h1>
+    <!-- Unordered list -->
+    <h3>Web Development Technologies:</h3>
+    <ul>
+      <li>HTML - Structure</li>
+      <li>CSS - Presentation</li>
+      <li>JavaScript - Behavior</li>
+    </ul>
 
-<p>My first paragraph.</p>
+    <!-- Ordered list -->
+    <h3>Web Development Process:</h3>
+    <ol>
+    <li>Plan the website structure</li>
+    <li>Create HTML structure</li>
+    <li>Add CSS styling (Week 2)</li>
+    <li>Implement JavaScript functionality (Week 3)</li>
+    </ol>
+    
+    <!-- Link element (anchor) with href attribute -->
+    <p>Learn more about HTML on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a>.</p>
+    
+    <!-- Image element with src attribute and alt text -->
+    <img src="https://via.placeholder.com/300x150" alt="Placeholder image">
+    <!-- Basic image -->
+    <img src="https://via.placeholder.com/300x200" alt="A placeholder image showing example dimensions">
 
+    <!-- Image with additional attributes -->
+    <img src="https://via.placeholder.com/150" alt="HTML5 logo" title="HTML5 Logo" width="150" height="150">
+
+
+    <!-- External link (opens in new tab) -->
+    <p>Learn more about HTML on <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>.</p>
+
+    <!-- Internal page link (anchor) -->
+    <p>Jump to the <a href="#projects">Projects</a> section.</p>
+
+    <!-- Simple div container -->
+    <div>
+        <h3>Contact Information:</h3>
+        <p>Email: listahura@gmail.com</p>
+        <!-- Email link -->
+        <p>Contact me at <a href="mailto:listahura@gmail.com">listahura@gmail.com</a>.</p>
+    </div>
 </body>
 </html>
