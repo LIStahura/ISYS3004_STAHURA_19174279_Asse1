@@ -1,0 +1,30 @@
+/* General styles */
+body {
+    background-colour: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Heading styles */
+  h1, h2, h3 {
+    colour: #333;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Paragraph styles */
+  p {
+    colour: #555;
+    line-height: 1.6;
+    margin: 0 0 1em;
+  }
+  
+  /* Link styles */
+  a {
+    colour: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
