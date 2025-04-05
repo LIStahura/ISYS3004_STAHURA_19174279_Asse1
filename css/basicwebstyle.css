@@ -7,11 +7,23 @@ body {
   }
   
   /* Heading styles */
-  h1, h2, h3 {
+  h1 {
     colour: #333;
     margin-bottom: 0.5em;
   }
   
+  h2 {
+    colour: #333;
+    margin-bottom: 0.5em;
+  }
+
+  h3 {
+    colour: #333;
+    margin-bottom: 0.5em;
+  }
+
+
+
   /* Paragraph styles */
   p {
     colour: #555;
