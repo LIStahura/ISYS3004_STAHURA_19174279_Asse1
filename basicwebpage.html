@@ -123,6 +123,38 @@
     padding: 10px; /* Optional: Adds some spacing inside the footer */
     background-color: #f1f1f1; /* Optional: Adds a background color for better visibility */
     }
+
+    /* Adjust font sizes for smaller screens */
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 1.5em;
+        }
+        h2 {
+            font-size: 1.2em;
+        }
+        h3 {
+            font-size: 1em;
+        }
+        p {
+            font-size: 0.9em;
+        }
+    }
+
+    /* Ensure images are responsive */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Adjust grid layout for smaller screens */
+    @media (max-width: 768px) {
+        .container {
+            grid-template-areas:
+                "content"
+                "menu";
+            grid-template-columns: 1fr;
+        }
+    }
     </style>
 </head>
 
