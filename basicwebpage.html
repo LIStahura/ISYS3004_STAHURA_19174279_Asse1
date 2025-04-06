@@ -9,120 +9,119 @@
     <nav>
     <a href="AHomePage.html" style="float: right;">Return to Home Page</a>  
     <a href="#home">Home</a> | <a href="#contact">Contact</a>
-  </nav>
-<style>
-/* General styles */
-body {
-    background: #f5f5f5;
-    font-family: Arial, sans-serif;
-    margin: 1.0rem;
+    </nav>
+    
+    <style>
+    /* General styles */
+    body {
+        background: #f5f5f5;
+        font-family: Arial, sans-serif;
+        margin: 1.0rem;}
+    
+    /* Heading styles - h1, h2, h3*/
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+        font-size: 2em;
+        text-align: left;}
+    
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+        font-size: 1.5em;
+        text-align: left;}
 
-  }
-  
-  /* Heading styles - h1, h2, h3*/
-  h1 {
-    color: black;
-    margin-bottom: 0.5em;
-    font-size: 2em;
-    text-align: left;
-  }
-  
-  h2 {
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    margin-top: 0.5em;
-    text-align: left;
-  }
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+        font-size: em;
+        text-align: left;}
 
-  h3 {
-    color: black;
-    margin-bottom: 0.5em;
-    font-size: 1.2em;
-    text-align: left;
-  }
-
- /* Paragraph styles */
-  p {
-    color: #555;
-    line-height: 1.6;
-    margin: 0 0 1em;
-  }
-  
-  /* Link styles */
-  a {
-    color: #0066cc;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-
-
-  /* header section styling */
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #0374e4; /* header background colour */
-  }
-  
-  nav a {
-    color: black;
-    text-decoration: none;
-    margin: 0 0.5rem;
-  }
-
-  .content-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
-  }
-
-  @media (max-width: 768px) {
-    .content-container {
-      grid-template-columns: 1fr;
+    /* Paragraph styles */
+    p {
+        color: #555;
+        line-height: 1.6;
+        margin: 0 0 1em;
     }
-  
+    
+    /* Link styles */
+    a {
+        color: #0066cc;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+    /* header section styling */
     nav {
-      flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: #0374e4; /* header background colour */
     }
-  }
-  
-  .content-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
-  }
+    
+    nav a {
+        color: black;
+        text-decoration: none;
+        margin: 0 0.5rem;
+    }
 
-  .container {
-  display: grid;
-  grid-template-areas:
-    "menu content";
-  grid-template-columns: 1fr 3fr;
-  gap: 5px;
-  background-color: #2196F3;
-  padding: 5px;
-}
-.container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 10px;
-}
-.container > div.menu {
-  grid-area: menu;
-}
-.container > div.content {
-  grid-area: content;
-}
-footer {
-  text-align: center; /* Centers the text horizontally */
-  padding: 10px; /* Optional: Adds some spacing inside the footer */
-  background-color: #f1f1f1; /* Optional: Adds a background color for better visibility */
-}
-</style>
+    .content-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    @media (max-width: 768px) {
+        .content-container {
+        grid-template-columns: 1fr;
+        }
+    
+        nav {
+        flex-direction: column;
+        }
+    }
+    
+    .content-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .container {
+    display: grid;
+    grid-template-areas:
+        "menu content";
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+    background-color: #2196F3;
+    padding: 5px;
+    }
+    .container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    }
+    .container > div.menu {
+    grid-area: menu;
+    }
+    .container > div.content {
+    grid-area: content;
+    }
+    footer {
+    text-align: center; /* Centers the text horizontally */
+    padding: 10px; /* Optional: Adds some spacing inside the footer */
+    background-color: #f1f1f1; /* Optional: Adds a background color for better visibility */
+    }
+    </style>
 </head>
 
 <body>
