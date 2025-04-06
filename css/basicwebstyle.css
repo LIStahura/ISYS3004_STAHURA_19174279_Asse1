@@ -78,21 +78,9 @@ body {
     }
   }
   
-
   .content-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     padding: 1rem;
-  }
-
-  /* Footer styles */
-  footer {
-    background-color: #0374e4; /* footer background colour */
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
   }
