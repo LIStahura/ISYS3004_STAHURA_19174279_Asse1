@@ -8,7 +8,7 @@
 
     <nav>
     <a href="#contact">Contact</a>
-    <a href="AHomePage.html" style="float: right;">Return to Home Page</a>
+    <a href="AHomePage.html">Return to Home Page</a>
     </nav>
     
     <style>
@@ -67,6 +67,8 @@
     align-items: center;    /* Aligns the links vertically */
     gap: 10px;              /* Adds spacing between links */
     background-color: #0374e4; /* header background colour */
+    flex-direction: row; /* Change to row for horizontal alignment */
+    padding: 10px; /* Optional: Adds some spacing inside the header */
     }
 
     nav a {
@@ -84,14 +86,8 @@
 
     @media (max-width: 768px) {
         .content-container {
-        grid-template-columns: 1fr;
-        }
-    
-    nav {
-        flex-direction: column;
-        }
+        grid-template-columns: 1fr;}
     }
-    
     .content-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
