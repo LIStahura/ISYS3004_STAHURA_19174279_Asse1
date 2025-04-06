@@ -1,0 +1,6 @@
+nav {
+    display: flex;
+    justify-content: center; /* Centers the links horizontally */
+    align-items: center;    /* Aligns the links vertically */
+    gap: 10px;              /* Adds spacing between links */
+}

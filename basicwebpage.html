@@ -7,14 +7,14 @@
     <title>Project 1: Basic Webpage </title>                 <!-- Sets the title shown in browser tabs and bookmarks -->
 
     <nav>
-    <a href="AHomePage.html" style="float: right;">Return to Home Page</a>  
-    <a href="#home">Home</a> | <a href="#contact">Contact</a>
+    <a href="#contact">Contact</a>
+    <a href="AHomePage.html" style="float: right;">Return to Home Page</a>
     </nav>
     
     <style>
     /* General styles */
     body {
-        background: #645555;
+        background: #f5f5f5;
         font-family: Arial, sans-serif;
         margin: 1.0rem;}
     
@@ -62,13 +62,13 @@
 
     /* header section styling */
     nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-        background-color: #0374e4; /* header background colour */
+    display: flex;
+    justify-content: center; /* Centers the links horizontally */
+    align-items: center;    /* Aligns the links vertically */
+    gap: 10px;              /* Adds spacing between links */
+    background-color: #0374e4; /* header background colour */
     }
-    
+
     nav a {
         color: whitesmoke;
         text-decoration: none;
@@ -81,10 +81,16 @@
         gap: 1rem;
         padding: 1rem;
     }
+
+    @media (max-width: 768px) {
+        .content-container {
+        grid-template-columns: 1fr;
+        }
     
-        nav {
+    nav {
         flex-direction: column;
         }
+    }
     
     .content-container {
         display: grid;
