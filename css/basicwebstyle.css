@@ -6,26 +6,26 @@ body {
     padding: 0;
   }
   
-  /* Heading styles */
-
+  /* Heading styles - h1, h2, h3*/
   h1 {
     color: black;
     margin-bottom: 0.5em;
     font-size: 2em;
-    text-align: center;}
+    text-align: left;
+  }
   
   h2 {
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin-top: 0.5em;
-    text-transform: uppercase;
+    text-align: left;
   }
 
   h3 {
     color: black;
     margin-bottom: 0.5em;
     font-size: 1.2em;
-    text-align: center;
+    text-align: left;
   }
 
  /* Paragraph styles */
@@ -46,12 +46,13 @@ body {
   }
 
 
+  /* header section styling */
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #004080; /* Example background colour */
+    background-color: #0374e4; /* header background colour */
   }
   
   nav a {
@@ -75,4 +76,23 @@ body {
     nav {
       flex-direction: column;
     }
+  }
+  
+
+  .content-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  /* Footer styles */
+  footer {
+    background-color: #0374e4; /* footer background colour */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
   }
