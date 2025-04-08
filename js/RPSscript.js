@@ -17,7 +17,25 @@ function play(user) {
     if (user === 'scissors') {
         result = "lose";
     }
-    let myMessage = "Computer chose rock, you " + result + "!"
+    let myMessage = "You " + result + "!Computer chose rock"
     alert(myMessage);
     say(myMessage);
 }
+
+/* event listener - rock */
+document.getElementById("rockButton").addEventListener("click", function(event) { 
+    console.log(event.target.id); 
+    play("rock"); 
+});
+
+/* event listener - paper */
+document.getElementById("paperButton").addEventListener("click", function(event) { 
+    console.log(event.target.id); 
+    play("paper"); 
+});
+
+/* event listener - scissors */
+document.getElementById("scissorsButton").addEventListener("click", function(event) { 
+    console.log(event.target.id); 
+    play("scissors"); 
+});
