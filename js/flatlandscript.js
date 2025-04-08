@@ -1,27 +1,31 @@
-/* Name: script.js
-   Author: Michael Borck, michael.borck@curtin.edu.au
-   Description: Add basic behaviour to Flatland
-   Version: 1.0
-*/
 
-/*--
-Step 1, cut-n-paste from HTML, add link to HTML
-
----*/
 
 /* Find elements in DOM tree, assign to variable (best practice) */
+let square = document.getElementById('square');
+let words = document.getElementById('words');
+
 
 
 /* Add event listener */
-
+square.addEventListener('click', (event) => clicked());     ////added event listener to square///
+square.addEventListener('mouseover', (event) => changecolour('grey'));     ////added event listener to square for changing colour when mouse hovered over///
+square.addEventListener('mouseout', (event) => changecolour('red'));     ////added event listener to square changes colour back after mouse is moved off ///
 
 /* Add function to handle events */
 
-
+function changecolour(colour) {        ////added function to change colour of square when mouse is hovered over
+   square.style.backgroundColor = colour; // Change the background color of the square
+ }
 
 function greeting() {
     // console.log("Welcome to Flatland. I am Square.");
     words.innerHTML = "Welcome to Flatland.<br> I am Square.";
+}
+
+console.log("Script file loaded.");
+function greeting() {
+  // console.log("Welcome to Flatland. I am Square.");
+  words.innerHTML = "Welcome to Flatland.<br> I am Square.";
 }
 
 /* Lets add behaviour when clicked This makes sense to have in JavaScript as it
