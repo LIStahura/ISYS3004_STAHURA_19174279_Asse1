@@ -6,21 +6,18 @@ body {
     width: 20%;
     font-family: Helvetica, sans-serif;
     text-align: center;
-  }
+    background-color: lightgrey;
+    }
   
   .instruction {
     font-size: 60%;
     text-align: left;
   }
   
-  /* I Googled 'letter inside a circle CSS'. Looked at the best answer, 'seems' to
-     make sense so copy-n-paste. Added source reference within CSS (example below)
-     and then modified rules to suite my needs.
-  
-     CSS styling for circle around a letter taken from answer to following question:
+  /* CSS styling for circle around a letter taken from answer to following question:
       https://stackoverflow.com/questions/29980387/how-to-make-a-circle-around-a-letter/29980453 */
   .circle {
-    background: red;
+    background: skyblue;
     color: white;
     padding: 5px 20px;
     border-radius: 50%;
@@ -28,5 +25,5 @@ body {
   }
   
   .circle:hover {
-    background-color: gray;
+    background-color: darkblue;
   }
