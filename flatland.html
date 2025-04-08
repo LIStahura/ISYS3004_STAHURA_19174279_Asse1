@@ -8,16 +8,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">                  <!-- Makes the page responsive on different devices -->
     <link rel="stylesheet" href="css/flatlandstyle.css">                 <!-- link to external css style sheet -->
     
-    <nav>
-    <a href="AHomePage.html" style="float: right;">Return Home</a>
-    </nav>
+    <style>
+        #square {
+        width: 200px; /* Set the width of the square button */
+        height: 200px; /* Set the height equal to the width */
+        background: red; /* Set the background color */
+        float: left; /* Float the button to the left */
+        border: none; /* Remove the default button border */
+        cursor: pointer; /* Change the cursor to a pointer on hover */
+        }
+
+        #square:hover {
+        background: grey; /* Change color on hover for interactivity */
+        }
+    </style>
 </head>
 
 <body>
-    <div id="words">
-        <!-- Text Will Go Here -->
-    </div>
+    <div id="words"></div>
     <div id="square"></div>
+
+
+
+    <a href="AHomePage.html" style="float: bottom left;">Return Home</a>
     <script src="js/flatlandscript.js"></script>
-</body>
 </html>
