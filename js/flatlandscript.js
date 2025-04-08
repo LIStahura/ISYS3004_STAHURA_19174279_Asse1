@@ -11,7 +11,6 @@ square.addEventListener('click', (event) => clicked());     ////added event list
 square.addEventListener('mouseover', (event) => changecolour('grey'));     ////added event listener to square for changing colour when mouse hovered over///
 square.addEventListener('mouseout', (event) => changecolour('red'));     ////added event listener to square changes colour back after mouse is moved off ///
 
-/* Add function to handle events */
 
 function changecolour(colour) {        ////added function to change colour of square when mouse is hovered over
    square.style.backgroundColor = colour; // Change the background color of the square
@@ -22,6 +21,8 @@ function greeting() {
     words.innerHTML = "Welcome to Flatland.<br> I am Square.";
 }
 
+/* Add function to handle events */
+
 console.log("Script file loaded.");
 function greeting() {
   // console.log("Welcome to Flatland. I am Square.");
@@ -31,10 +32,16 @@ function greeting() {
 /* Lets add behaviour when clicked This makes sense to have in JavaScript as it
    'dynamic'
    
-   1st-version, simple message added to innerHTML
-   
-   2nd-version, use buzzword generator */
+   1st-version, simple message added to innerHTML*///
 
+   /////2nd-version, use buzzword generator */
+   function clicked () {
+      //let msg = "build a<br>"
+      let msg = "build a<br>" + createBuzzwordPhrase();
+       // console.log(msg);
+      words.innerHTML = msg;
+    }
+     
    
 /* This function is supplied in the supporting text file.
    students will only have to copy-n-paste the function */
