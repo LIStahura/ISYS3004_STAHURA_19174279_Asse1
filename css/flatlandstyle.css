@@ -5,7 +5,7 @@
   width: 550px;
   margin: 0 auto;
   background-color: lightskyblue;
-  }
+}
   
 #words {
   float: left;
@@ -17,7 +17,7 @@
   margin-right: 10px;
   border-radius: 10%;
   border-right: 5px solid red;
-  }
+}
 
 #square {
   width: 200px; /* Set the width of the square button */
@@ -26,8 +26,8 @@
   float: left; /* Float the button to the left */
   border: none; /* Remove the default button border */
   cursor: pointer; /* Change the cursor to a pointer on hover */
-  }
-
+}
+ 
 #square:hover {
-  background: grey; /* Change color on hover for interactivity */
-  }
+  background: darkred; /* Change color on hover for interactivity */
+}
