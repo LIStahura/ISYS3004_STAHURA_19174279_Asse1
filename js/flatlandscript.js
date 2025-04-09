@@ -30,10 +30,8 @@ console.log("Script file loaded.");
 
    /////2nd-version, use buzzword generator */
 function clicked () {
-   //let msg = "build a<br>"
     let msg = "build a<br>" + createBuzzwordPhrase();
-    // console.log(msg);
-    words.innerHTML = msg;
+    words.innerHTML = msg;              // console.log(msg);
 }
      
    
