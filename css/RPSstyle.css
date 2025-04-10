@@ -1,66 +1,51 @@
 body {
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 20px;
-    border: 10px solid red;
-    width: 20%;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    background-color: lightgrey;
-    }
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  border: 10px solid red;
+  width: 20%;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  background-color: lightgrey;
+ }
   
-  .instruction {
-    font-size: 60%;
-    text-align: left;
-  }
+.instruction {
+  font-size: 60%;
+  text-align: left;
+ }
   
-  /* CSS styling for circle around a letter taken from answer to following question:
-      https://stackoverflow.com/questions/29980387/how-to-make-a-circle-around-a-letter/29980453 */
-  .circle {
+/* CSS styling for circle around a letter taken from answer to following question:
+https://stackoverflow.com/questions/29980387/how-to-make-a-circle-around-a-letter/29980453 */
+.circle {
     background: skyblue;
     color: white;
     padding: 5px 20px;
     border-radius: 50%;
     font-size: 65px;
-  }
+}
   
-  .circle:hover {
+.circle:hover {
     background-color: darkblue;
-  }
+}
+
 
   /* Media query for smaller devices (max-width: 768px) */
   @media (max-width: 768px) {
-      body {
-          width: 90%; /* Increase width for better readability */
-          padding: 10px; /* Reduce padding */
-          border-width: 5px; /* Reduce border size */
-      }
+    body {
+        width: 90%; /* Increase width for better readability */
+        padding: 10px; /* Reduce padding */
+        border-width: 5px; /* Reduce border size */
+    }
 
-      .circle {
-          font-size: 40px; /* Reduce font size for circles */
-          padding: 5px 10px; /* Adjust padding for smaller circles */
-      }
+    .circle {
+        font-size: 40px; /* Reduce font size for circles */
+        padding: 5px 10px; /* Adjust padding for smaller circles */
+    }
 
-      .instruction {
-          font-size: 80%; /* Increase font size for better readability */
-          text-align: center; /* Center-align instructions */
-      }
-  }
+    .instruction {
+        font-size: 80%; /* Increase font size for better readability */
+        text-align: center; /* Center-align instructions */
+    }
+}
 
-  /* Media query for very small devices (max-width: 480px) */
-  @media (max-width: 480px) {
-      body {
-          width: 100%; /* Use full width */
-          padding: 5px; /* Further reduce padding */
-      }
-
-      .circle {
-          font-size: 30px; /* Further reduce font size */
-          padding: 5px 8px; /* Adjust padding */
-      }
-
-      .instruction {
-          font-size: 100%; /* Further increase font size */
-      }
-  }
 
