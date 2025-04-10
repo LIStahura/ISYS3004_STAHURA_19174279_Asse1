@@ -31,3 +31,61 @@
 #square:hover {
   background: darkred; /* Change color on hover for interactivity */
 }
+
+header {
+  background-color: lightskyblue;
+  color: black;
+  padding: 1rem 0;
+  text-align: center;
+  width: 110%; /* Extend header to full width */
+  margin: 0; /* Remove default margins */
+}
+
+nav {
+  background: lightskyblue;
+  color: black;
+  padding: 0.5rem;
+  width: 110%; /* Extend nav to full width */
+  margin: 0; /* Remove default margins */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover {         /* navigation hyperlink heading - Changes color on hover */
+  color: blue;            /* Changes color on hover */
+  text-decoration: none;
+}
+
+footer {
+  background: lightskyblue;           /* Optional: Adds a background color for better visibility */
+  color: black;                       /* adding text color for better visibility */
+  text-align: center;                 /* Centers the text horizontally */
+  padding: 10px;                      /* Optional: Adds some spacing inside the footer */
+  width: 100%;                        /* Extend nav to full width */
+}
+
+@media (max-width: 768px) {         /* Media query for smaller screens */
+  nav ul {
+      flex-direction: column; /* Stack links vertically */
+      align-items: center; /* Center-align the links */
+  }
+  nav ul li {
+      margin: 0.5rem 0; /* Add vertical spacing between links */
+  }
+}
