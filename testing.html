@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your website description here">
-    <meta name="author" content="Your Name">
-    <title>Your Website Title</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                 <!-- Makes the page responsive on different devices -->
+    <meta name="description" content="Assignment homepage and base of navigation for assignment 1 submission">
+    <meta name="author" content="Lacey Stahura">
+    <title>Home Page - Assignment 1</title>                      <!-- Sets the title shown in browser tabs and bookmarks -->
+    <link rel="stylesheet" href="css/Homestyle.css">                 <!-- link to external css style sheet -->
     <style>
         /* Basic CSS for styling */
         body {
@@ -15,14 +15,27 @@
             padding: 0;
             line-height: 1.6;
         }
+        p {
+            margin: 0.5rem 0;
+        }
         header {
-            background: #333;
-            color: #fff;
+            background-color: lightskyblue;
+            color: black;
             padding: 1rem 0;
             text-align: center;
         }
+        h1 {
+            margin: 0;
+        }
+        h2 {
+            margin: 0.5rem 0;
+        }
+        h3 {
+            margin: 0.5rem 0;
+        }
         nav {
-            background: #444;
+            background: lightskyblue;
+            color: black;
             padding: 0.5rem;
         }
         nav ul {
@@ -36,47 +49,97 @@
             margin: 0 1rem;
         }
         nav ul li a {
-            color: #fff;
+            color: black;
             text-decoration: none;
         }
         main {
             padding: 2rem;
-            text-align: center;
+            text-align: left;
         }
+
         footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
+            background: lightskyblue;           /* Optional: Adds a background color for better visibility */
+            color: black;                       /* adding text color for better visibility */
+            text-align: center;                 /* Centers the text horizontally */
+            padding: 10px;                      /* Optional: Adds some spacing inside the footer */
         }
     </style>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to Your Website</h1>
-        <p>Your tagline goes here</p>
+    <header>                                <!-- Header Section -->
+        <h1>Home page</h1>
+        <p>Assignment 1: Portfolio Fusion: AI-Assisted Web Development</p>
     </header>
 
-    <!-- Navigation Bar -->
-    <nav>
+    <nav>                       <!-- Navigation Bar -->
         <ul>
             <li><a href="#home">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Main Content Section -->
     <main>
-        <h2>Main Heading</h2>
-        <p>This is the main content area where you can add information about your website, services, or anything else you'd like to showcase.</p>
+
+
+
     </main>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 Your Website Name. All Rights Reserved.</p>
+
+    <footer>            <!-- footer section original assisted creation by AI but changed all details to own content -->  
+        <p>&copy; 2025 Lacey Stahura. All rights reserved.</p>
+        <div id="contact">        <!-- Simple div container -->  
+            <p>Please email <a href="mailto:19174279@student.curtin.edu.au">19174279@student.curtin.edu.au</a> should you need to contact me.</p>  <!-- Email link -->
+            <p><a href="https://github.com/LIStahura">GitHub</a></p>                                    <!-- external link to github profile -->
+        </div>
     </footer>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#profile">Professional Profile</a></li>
+            <li><a href="project1.html">Project 1</a></li>
+            <li><a href="project2.html">Project 2</a></li>
+            <li><a href="project3.html">Project 3</a></li>
+        </ul>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <h1>Welcome to My Home Page</h1>
+        <p>This is a brief introduction to my website. Here, you can explore my professional background and view some of my projects.</p>
+    </section>
+
+    <!-- Professional Profile Section -->
+    <section id="profile">
+        <h2>About Me</h2>
+        <p>I am a professional with expertise in [Your Field]. My passion is to deliver high-quality work and continuously improve my skills.</p>
+        <p>Feel free to explore my projects below to learn more about my work.</p>
+    </section>
+
+    <!-- Call to Action -->
+    <div class="call-to-action">
+        <p>Explore my projects using the navigation menu above.</p>
+    </div>
+
 </body>
 </html>

@@ -1,48 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>                                                        <!-- Meta information - not visible on the page -->
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/Homestyle.css">                 <!-- link to external css style sheet -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">                  <!-- Makes the page responsive on different devices -->
-    <title>Home Page - Assignment 1</title>                      <!-- Sets the title shown in browser tabs and bookmarks -->
-</head>
-
-<body>                                    <!-- All visible content goes within the body -->    
-    <h1>Assignment 1 Home Page</h1>      <!-- Heading elements (h1-h6) create hierarchical structure -->
-    <h3>Student Information</h3>
-    
-    <!-- Paragraph element for text content, basic information required for identification and general header -->
-    <p><strong>Name: </strong>Lacey Stahura <strong>Student ID: </strong>19174279 </p>
-    <p><strong>Unit: </strong>ISYS3004 Business Web and Mobile Technologies</p>
-    <p><strong>Due Date:</strong> 23:59 Friday 11 April, 2025 <strong>Weight:</strong> 20% of total unit grade</p>
-    <p>Please Email <a href="mailto:19174279@student.curtin.edu.au">19174279@student.curtin.edu.au</a> should you need to contact me.</p>  <!-- Email link -->  
-
-    <h3>Assignment Projects</h3>                             <!-- Listed Projects -->
-    <ol>
-        <li><a href="basicwebpage.html">Basic Webpage</a></li>                                 
-        <li><a href="RPSgame.html">Rock Paper Scissors Game</a></li>
-        <li><a href="flatland.html">Flatland Business Advisor</a></li>
-        <li><a href="APIfetcher.html">RSS Reader</a></li>
-    </ol>
-
-    <h3>AI Integration Task & Conversation Logs</h3>
-
-    <h3>Before/After Implementation Examples</h3>
-
-    <h3>Deployment & Version Control</h3>
-
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your website description here">
-    <meta name="author" content="Your Name">
-    <title>Your Website Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                 <!-- Makes the page responsive on different devices -->
+    <meta name="description" content="Assignment homepage and base of navigation for assignment 1 submission">
+    <meta name="author" content="Lacey Stahura">
+    <title>Home Page - Assignment 1</title>                      <!-- Sets the title shown in browser tabs and bookmarks -->
     <link rel="stylesheet" href="css/Homestyle.css">                 <!-- link to external css style sheet -->
     <style>
         /* Basic CSS for styling */
@@ -52,14 +15,27 @@
             padding: 0;
             line-height: 1.6;
         }
+        p {
+            margin: 0.5rem 0;
+        }
         header {
-            background: #333;
-            color: #fff;
+            background-color: lightskyblue;
+            color: black;
             padding: 1rem 0;
             text-align: center;
         }
+        h1 {
+            margin: 0;
+        }
+        h2 {
+            margin: 0.5rem 0;
+        }
+        h3 {
+            margin: 0.5rem 0;
+        }
         nav {
-            background: #444;
+            background: lightskyblue;
+            color: black;
             padding: 0.5rem;
         }
         nav ul {
@@ -73,47 +49,71 @@
             margin: 0 1rem;
         }
         nav ul li a {
-            color: #fff;
+            color: black;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: blue;            /* Changes color on hover */
             text-decoration: none;
         }
         main {
             padding: 2rem;
-            text-align: center;
+            text-align: left;
         }
         footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
+            background: lightskyblue;           /* Optional: Adds a background color for better visibility */
+            color: black;                       /* adding text color for better visibility */
+            text-align: center;                 /* Centers the text horizontally */
+            padding: 10px;                      /* Optional: Adds some spacing inside the footer */
         }
     </style>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to Your Website</h1>
-        <p>Your tagline goes here</p>
+    <header>                                  <!-- Header Section -->
+        <h1>Home page</h1>
+        <p>Assignment 1: Portfolio Fusion: AI-Assisted Web Development</p>
     </header>
-
-    <!-- Navigation Bar -->
-    <nav>
+    <nav>                        <!-- Navigation Bar -->
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="basicwebpage.html">Basic Webpage</a></li>
+            <li><a href="RPSgame.html">Rock, Paper, Scissors</a></li>
+            <li><a href="flatland.html">Flatland Business Advisor</a></li>
+            <li><a href="APIfetcher.html">RSS Reader</a></li>
         </ul>
     </nav>
 
-    <!-- Main Content Section -->
-    <main>
-        <h2>Main Heading</h2>
-        <p>This is the main content area where you can add information about your website, services, or anything else you'd like to showcase.</p>
+    <main>                         <!-- Main Content Section -->
+       <h1>Assignment 1 Home Page</h1>      <!-- Heading elements (h1-h6) create hierarchical structure -->
+       <h3>Student Information</h3>
+    
+    <!-- Paragraph element for text content, basic information required for identification and general header -->
+    <p><strong>Name: </strong>Lacey Stahura <strong>Student ID: </strong>19174279 </p>
+    <p><strong>Unit: </strong>ISYS3004 Business Web and Mobile Technologies</p>
+    <p><strong>Due Date:</strong> 23:59 Friday 11 April, 2025 <strong>Weight:</strong> 20% of total unit grade</p>
+    <br>            <!-- Line break for spacing -->
+    <h3>Assignment Projects</h3>                             <!-- Listed Projects -->
+    <ol>
+        <li><a href="basicwebpage.html">Basic Webpage</a></li>                                 
+        <li><a href="RPSgame.html">Rock Paper Scissors Game</a></li>
+        <li><a href="flatland.html">Flatland Business Advisor</a></li>
+        <li><a href="APIfetcher.html">RSS Reader</a></li>
+    </ol>
+
+    <h3>AI Integration Task & Conversation Logs</h3>
+
+    <h3>Before/After Implementation Examples</h3>
+
+    <h3>Deployment & Version Control</h3>
     </main>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 Your Website Name. All Rights Reserved.</p>
+    <footer>            <!-- footer section original assisted creation by AI but changed all details to own content -->  
+        <p>&copy; 2025 Lacey Stahura. All rights reserved.</p>
+        <div id="contact">        <!-- Simple div container -->  
+            <p>Please email <a href="mailto:19174279@student.curtin.edu.au">19174279@student.curtin.edu.au</a> should you need to contact me.</p>  <!-- Email link -->
+            <p><a href="https://github.com/LIStahura">GitHub</a></p>                                    <!-- external link to github profile -->
+        </div>
     </footer>
 </body>
 </html>
