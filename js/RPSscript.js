@@ -34,7 +34,7 @@ document.getElementById("paperButton").addEventListener("click", function(event)
     play("paper"); 
 });
 
-/* event listener - scissors */
+/* event listener - paper */
 document.getElementById("scissorsButton").addEventListener("click", function(event) { 
     console.log(event.target.id); 
     play("scissors"); 
