@@ -4,8 +4,7 @@ function say(m) {
     speechSynthesis.speak(msg);
 }
 
-/* This is a simplified version of the game.
-The Computer ALWAYS picks 'rock'.  
+/* This is a simplified version of the game. The Computer ALWAYS picks 'rock'.  
 Does user's choose wins,looses, or ties vs 'rock'? */
 function play(user) {
     if (user === 'rock') {
@@ -17,7 +16,7 @@ function play(user) {
     if (user === 'scissors') {
         result = "lose";
     }
-    let myMessage = "You " + result + "! Computer chose rock"
+    let myMessage = "You " + result + "! Computer chose rock."
     alert(myMessage);
     say(myMessage);
 }
@@ -25,17 +24,25 @@ function play(user) {
 /* event listener - rock */
 document.getElementById("rockButton").addEventListener("click", function(event) { 
     console.log(event.target.id); 
-    play("rock"); 
+    play('rock'); 
 });
 
 /* event listener - paper */
 document.getElementById("paperButton").addEventListener("click", function(event) { 
     console.log(event.target.id); 
-    play("paper"); 
+    play('paper'); 
 });
 
 /* event listener - scissors */
 document.getElementById("scissorsButton").addEventListener("click", function(event) { 
     console.log(event.target.id); 
-    play("scissors"); 
+    play('scissors'); 
+});
+
+
+/* event listener - scissors */
+document.addEventListener("click", function(event) {
+    if (event.target.id === "scissorsButton") {console.log(event.target.id);
+        play('scissors');
+    }
 });
