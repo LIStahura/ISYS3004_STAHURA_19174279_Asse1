@@ -16,9 +16,8 @@ fetch('https://jsonplaceholder.typicode.com/posts')
           dataDiv.innerHTML = '<p>No data found.</p>';
         }
       })
-      
-    .catch(error => {
+// Handle any errors that occur during the fetch
+     .catch(error => {
         console.error('Error fetching data:', error);
-     });
-
-      
+        document.getElementById('data').innerHTML = '<p>Sorry, an error occurred while fetching data.</p>';
+    });      
