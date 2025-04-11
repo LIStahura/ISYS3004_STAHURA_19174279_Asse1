@@ -16,7 +16,7 @@ header {
     color: black;
     padding: 1rem 0;
     text-align: center;
-    width: 110%; /* Extend header to full width */
+    width: 90%; /* Extend header to full width */
     margin: 0; /* Remove default margins */
 }
 
@@ -36,7 +36,7 @@ nav {
     background: lightskyblue;
     color: black;
     padding: 0.5rem;
-    width: 110%; /* Extend nav to full width */
+    width: 100%; /* Extend nav to full width */
     margin: 0; /* Remove default margins */
 }
 
