@@ -27,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -44,6 +44,25 @@ nav ul li a:hover {         /* navigation hyperlink heading - Changes color on h
     nav ul li {
         margin: 0.5rem 0; /* Add vertical spacing between links */
     }
+}
+
+
+header {
+    background-color: lightskyblue;
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+    width: 110%; /* Extend header to full width */
+    margin: 0; /* Remove default margins */
+}
+
+header h1{
+    background-color: lightskyblue;
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+    width: 110%; /* Extend header to full width */
+    margin: 0; /* Remove default margins */
 }
 
 /* Heading styles - h1, h2, h3*/
