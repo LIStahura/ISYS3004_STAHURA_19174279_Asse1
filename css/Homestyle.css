@@ -16,7 +16,7 @@ header {
     color: black;
     padding: 1rem 0;
     text-align: center;
-    width: 90%; /* Extend header to full width */
+    width: 100%; /* Extend header to full width */
     margin: 0; /* Remove default margins */
 }
 
