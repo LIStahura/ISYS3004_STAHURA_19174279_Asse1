@@ -7,4 +7,6 @@ Student Name: Lacey Stahura
 
 Due Date: Friday 11th of April 2025 @ 11:59pm
 
-Please note Additional document file contains all AI Integration Task & Conversation Logs. Along with any necessary before and after images for each question.
+Please note an Additional document will contain all AI Integration Task/Conversation Logs, before and after images for each question.
+
+netlify site: https://isys3004-asse1-19174279.netlify.app/
