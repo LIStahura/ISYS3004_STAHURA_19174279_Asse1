@@ -7,25 +7,40 @@
     <meta name="description" content="Explore flatland and interact with its inhabitants">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">                  <!-- Makes the page responsive on different devices -->
     <link rel="stylesheet" href="css/flatlandstyle.css">                 <!-- link to external css style sheet -->
+    <style>
+        main {
+            margin-top: 20px; /* Add space between header and main */
+        }
+    </style>
 </head>
 
 <body>
     <header>                                  <!-- Header Section -->
         <h1>Home page</h1>
         <p>Assignment 1: Portfolio Fusion: AI-Assisted Web Development</p>
+        <br>
+        <nav>                        <!-- Navigation Bar -->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="basicwebpage.html">Basic Webpage</a></li>
+                <li><a href="RPSgame.html">Rock, Paper, Scissors</a></li>
+                <li><a href="flatland.html">Flatland Business Advisor</a></li>
+                <li><a href="APIfetcher.html">RSS Reader</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>                        <!-- Navigation Bar -->
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="basicwebpage.html">Basic Webpage</a></li>
-            <li><a href="RPSgame.html">Rock, Paper, Scissors</a></li>
-            <li><a href="flatland.html">Flatland Business Advisor</a></li>
-            <li><a href="APIfetcher.html">RSS Reader</a></li>
-        </ul>
-    </nav>
-    <div id="words"></div>
-    <button id="square"></button>                                        <!-- changed into Button to trigger the function --> 
-    <script src="js/flatlandscript.js"></script>
+    <main>
+        <div id="words"></div>
+        <button id="square"></button>                                        <!-- changed into Button to trigger the function --> 
+        <script src="js/flatlandscript.js"></script>
+    </main>
+    <footer>            <!-- footer section original assisted creation by AI but changed all details to own content -->  
+        <p>&copy; 2025 Lacey Stahura. All rights reserved.</p>
+        <div id="contact">        <!-- Simple div container -->  
+            <p>Please email <a href="mailto:19174279@student.curtin.edu.au">19174279@student.curtin.edu.au</a> should you need to contact me.</p>  <!-- Email link -->
+            <p><a href="https://github.com/LIStahura">GitHub</a></p>                                    <!-- external link to github profile -->
+        </div>
+    </footer>
 </body>
 </html>

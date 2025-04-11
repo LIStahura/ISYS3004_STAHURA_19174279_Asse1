@@ -26,6 +26,7 @@
   float: left; /* Float the button to the left */
   border: none; /* Remove the default button border */
   cursor: pointer; /* Change the cursor to a pointer on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 
 #square:hover {
@@ -37,7 +38,7 @@ header {
   color: black;
   padding: 1rem 0;
   text-align: center;
-  width: 110%; /* Extend header to full width */
+  width: 100%; /* Extend header to full width */
   margin: 0; /* Remove default margins */
 }
 
@@ -45,7 +46,7 @@ nav {
   background: lightskyblue;
   color: black;
   padding: 0.5rem;
-  width: 110%; /* Extend nav to full width */
+  width: 100%; /* Extend nav to full width */
   margin: 0; /* Remove default margins */
 }
 
@@ -70,6 +71,19 @@ nav ul li a {
 nav ul li a:hover {         /* navigation hyperlink heading - Changes color on hover */
   color: blue;            /* Changes color on hover */
   text-decoration: none;
+}
+
+main {
+  margin: 20px auto; /* Center the main section horizontally and add vertical spacing */
+  padding: 2rem; /* Add padding inside the main section */
+  max-width: 800px; /* Set a maximum width for the main content */
+  max-height: 800px; /* Set a maximum height for the main content */
+  overflow: auto; /* Allow scrolling if content exceeds max height */
+  box-sizing: border-box; /* Ensure padding does not affect width */
+  background-color: white; /* Optional: Add a background color for better visibility */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  color: red; /* Changed text color */
+  text-align: center; /* Align text to the left */
 }
 
 footer {
