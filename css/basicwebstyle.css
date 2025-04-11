@@ -7,7 +7,7 @@ body {
 /* navigation styles */
 nav {
     background: lightskyblue;
-    color: white
+    color: white;
     padding: 0.5rem;
     width: 110%; /* Extend nav to full width */
     margin: 0; /* Remove default margins */
